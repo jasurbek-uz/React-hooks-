@@ -1,3 +1,5 @@
+import React, { useState, useEffect } from 'react';
+
 export const useEffectExample = () => {
   const [count, setCount] = useState(0);
 
@@ -12,3 +14,4 @@ export const useEffectExample = () => {
     </div>
   );
 }
+export default useEffectExample
